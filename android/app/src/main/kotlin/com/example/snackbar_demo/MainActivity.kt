@@ -26,7 +26,7 @@ class MainActivity: FlutterActivity() {
             val message: String? = arg?.get("msg")
 
             if(call.method=="showtoast"){
-                Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
                 OmniWallet
                     .with(this)
                     .start()
